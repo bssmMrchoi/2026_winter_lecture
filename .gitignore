@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PEDANTIC.txt
+
+# Keep requirements.txt
+!requirements.txt
+
+# Virtual Environment
+.venv
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ChromaDB data
+rag_server/chroma_data/
+chroma_data/
+
+# Docker
+*.log
+
+# Cookies
+cookies.txt
+cookies*.txt
+/tmp/*.txt
+
+# PDF files (optional - comment out if you want to include sample PDFs)
+# *.pdf
+
+# Claude
+.claude/
